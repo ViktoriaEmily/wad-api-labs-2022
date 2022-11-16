@@ -4,7 +4,7 @@
   "description": "node lab 1",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ViktoriaEmily",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
   }
 }
