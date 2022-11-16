@@ -296,6 +296,7 @@
     "type-fest": "^0.20.2",
     "undefsafe": "^2.0.5",
     "union-value": "^1.0.1",
+    "uniqid": "^5.4.0",
     "unset-value": "^1.0.0",
     "uri-js": "^4.4.1",
     "urix": "^0.1.0",
