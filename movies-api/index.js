@@ -35,13 +35,14 @@ app.use('/api/users', usersRouter);
 
 app.use('/api/genres', genresRouter);
 
+app.use(passport.initialize());
+
 // Add passport.authenticate(..)  to middleware stack for protected routes​
 app.use('/api/movies', passport.authenticate('jwt', {session: false}), moviesRouter);
 
-
 app.use(errHandler);
 
-app.use(passport.initialize());
+
 
 
 app.listen(port, () => {
