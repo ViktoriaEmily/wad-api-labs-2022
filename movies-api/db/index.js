@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 dotenv.config();
 
 // Connect to database
+// eslint-disable-next-line no-undef
 mongoose.connect(process.env.MONGO_DB);
 const db = mongoose.connection;
 
